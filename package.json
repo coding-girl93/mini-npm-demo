@@ -1,0 +1,26 @@
+{
+  "name": "mini-npm-demo",
+  "version": "1.0.0",
+  "description": "测试webpack发布npm包",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-girl93/mini-npm-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coding-girl93/mini-npm-demo/issues"
+  },
+  "homepage": "https://github.com/coding-girl93/mini-npm-demo#readme",
+  "dependencies": {
+    "terser-webpack-plugin": "^5.1.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
+  }
+}
